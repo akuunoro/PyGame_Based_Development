@@ -22,7 +22,7 @@ This commit title label involves the [Devlog](devlog/) directory in this reposit
 
 ## Devlog
 [Devlog #1](devlog/akuunoro_06.08.2026_.md)
-
+[Devlog #2](devlog/akuunoro_06.13.2026_.md)
 
 
 
