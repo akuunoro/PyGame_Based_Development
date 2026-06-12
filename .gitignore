@@ -4,6 +4,9 @@
 *.gif
 
 
+#specific files
+/ideas
+
 ## Python bytecode
 __pycache__/
 *.py[cod]
