@@ -1,6 +1,6 @@
 # akuunoro
 import pygame
-from src.assets_cache.player_cache import load_player_sprite
+from playground.character_movement.src.assets_cache.player_cache import load_player_sprite
 
 # SETUP
 pygame.init()  # initialize all pygame modules
