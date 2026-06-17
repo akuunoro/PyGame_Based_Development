@@ -32,3 +32,6 @@ wether there's a size set or not, if there's not. Ignore this.
 
 ##### Section 1.6
 set it in the dictionary, being {(filename, size): surface}
+
+### UPDATE
+I only managed to learn how sprite loading and caching during this time as I became busy handling my thesis. 
