@@ -1,5 +1,5 @@
 import pygame
-from directory_settings import PLAYGROUND_ROOT
+from utils.directory_settings import PLAYGROUND_ROOT
 
 
 sprite_cache = {} 
