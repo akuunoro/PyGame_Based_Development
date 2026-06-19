@@ -1,5 +1,7 @@
 #akuunoro
 import pygame 
+from src.entities.player import Player
+
 
 #SETUP
 pygame.init()
@@ -8,7 +10,7 @@ screen = pygame.display.set_mode((1280, 720))
 pygame.display.set_caption("Playground: Sprite Animation")
 
 #LOAD ASSETS
-
+player = Player()
 
 #GAMEPLAY LOOP
 running = True
@@ -22,6 +24,14 @@ while running:
   clock = pygame.time.Clock()
 
   #RENDER 
+
+  #game data
+  player.update()
+
+  #show it
+  player.draw(screen)
+
+
 
   pygame.display.flip()
   clock.tick(60)

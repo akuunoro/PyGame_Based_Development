@@ -1,7 +1,7 @@
-from assets_cache.player_cache import load_player_sprite
+from src.assets_cache.player_cache import load_player_sprite
 
-def start_idle_animation(default_size=(64,64)):
-  return[
+def start_idle_animation(default_size=(256, 256)): # refer to akuunoro_06.18.2026.md - section 1.1
+  return[                                          # refer to akuunoro_06.18.2026.md - section 1.2
     load_player_sprite("Knight Idle 1.png", default_size),
     load_player_sprite("Knight Idle 2.png", default_size),
     load_player_sprite("Knight Idle 3.png", default_size),
@@ -13,3 +13,4 @@ def start_idle_animation(default_size=(64,64)):
     load_player_sprite("Knight Idle 9.png", default_size),
     load_player_sprite("Knight Idle 10.png", default_size),
   ]
+
