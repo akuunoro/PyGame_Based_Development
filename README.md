@@ -21,9 +21,13 @@ This commit title label involves the [Devlog](devlog/) directory in this reposit
 
 
 ## Devlog
-[Devlog #1](devlog/akuunoro_06.08.2026_.md)
-[Devlog #2](devlog/akuunoro_06.13.2026_.md)
+[Devlog #1: Familiarizing on Running Basic Pygame Screen](devlog/akuunoro_06.08.2026_.md)
 
+[Devlog #2: Sprite Loading and Caching](devlog/akuunoro_06.13.2026_.md)
+
+[Devlog #3: Sprite Animation](devlog/akuunoro_06.18.2026_.md)
+
+[Devlog #4: Character Movement and Sprite Animation Syncing](devlog/akuunoro_06.20.2026_.md)
 
 
 
