@@ -5,7 +5,12 @@ import pygame
 
 #SETUP
 pygame.init()
-screen = pygame.display.set_mode((1280,720))
+clock = pygame.time.Clock()
+
+#SCREEN DISPLAY
+screen_wiidth = 1420
+screen_height = 720
+screen = pygame.display.set_mode((screen_wiidth,screen_height))
 
 pygame.display.set_caption("Playground: Sprite Movement")
 
@@ -26,7 +31,7 @@ while running:
       running = False
 
   screen.fill((195, 177, 225))
-  clock = pygame.time.Clock()
+  
 
   #RENDER
 
