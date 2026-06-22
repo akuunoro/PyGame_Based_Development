@@ -1,5 +1,8 @@
 #akuunoro
 import pygame
+from src.entities.player import Player
+
+
 
 
 
@@ -16,7 +19,7 @@ pygame.display.set_caption("Playground: Sprite Movement")
 
 #LOAD ASSETS
 #player
-
+player = Player()
 
 #enemy
 
@@ -36,9 +39,14 @@ while running:
   #RENDER
 
   #GAME DATA UPDATE
+  player.update()
 
 
 
+
+
+  #DRAW TO SCREEN
+  player.draw(screen)
 
   pygame.display.flip()
   clock.tick(60)
