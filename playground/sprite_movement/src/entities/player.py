@@ -1,9 +1,10 @@
 import pygame
-from src.animations.player_animations import start_idle_animation, start_walking_animation
+from src.animations.player_animations import start_idle_animation, start_walking_animation 
 
 class Player:
   def __init__(self): #initialize
 
+    #refer to akuunoro_06.20.2026.md - section 1.1
     #animation - idle
     self.idle_frames = start_idle_animation() 
     #animation - walking
