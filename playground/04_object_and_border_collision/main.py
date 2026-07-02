@@ -2,4 +2,7 @@
 
 
 
-print("im back")
+print("i duunno anymore")
+print("i dont like this ide")
+
+
